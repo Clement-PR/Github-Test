@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* ************************************ NAVBAR ************************ */
+
+nav {
+  margin: 0;
+  padding: 0;
+  background: rgb(26, 25, 25);
+  padding: 10px;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  opacity: 0.9;
+}
+
+a {
+  transition: all ease 1s;
+  text-decoration: none;
+  margin-left: 100px;
+  font-size: 1.2em;
+  color: white;
+}
+
+a:hover {
+  transition: all ease 1s;
+  font-size: 1.25em;
+  color: rgb(100, 100, 100);
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+.image-navbar {
+  float: left;
+  position: relative;
+  top: -8px;
+}
+
+/* ******************************** BACKGROUND *********************** */
+
+.background {
+  background: url(./media/github-social.png) no-repeat 50% 50%;
+  background-size: cover;
+  padding: 60px;
+  height: 799px;
+}
+
+h2 {
+  color: white;
+  font-size: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+p {
+  color: white;
+  font-size: 1.5em;
+}
+
+.trait {
+  height: 2px;
+  width: 80%;
+  margin: -3px auto;
+  background: black;
+
+}
+
+.container-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: end;
+  flex-wrap: wrap;
+  padding: 50px;
+  position: relative;
+  right: 2.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
